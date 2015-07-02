@@ -1,0 +1,31 @@
+{
+	"name": "nodebb-plugin-anti-spam-question",
+	"version": "0.1.0",
+	"description": "simple question to prevent spam bots from registering",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Fusselwurm/nodebb-anti-spam-question"
+	},
+	"keywords": [
+		"nodebb",
+		"plugin",
+		"spam",
+		"antispam"
+	],
+	"author": {
+		"name": "Moritz Schmidt",
+		"email": "fusselwurm@gmail.com"
+	},
+	"license": "MIT",
+	"dependencies": {},
+	"peerDependencies": {
+		"nodebb-theme-persona": ">=0.1.0"
+	},
+	"nbbpm": {
+		"compatibility": "^0.7.0"
+	}
+}
