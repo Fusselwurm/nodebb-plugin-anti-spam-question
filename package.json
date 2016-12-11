@@ -1,6 +1,6 @@
 {
 	"name": "nodebb-plugin-anti-spam-question",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "simple question to prevent spam bots from registering",
 	"main": "index.js",
 	"scripts": {
@@ -26,6 +26,6 @@
 		"nodebb-theme-persona": ">=0.1.0"
 	},
 	"nbbpm": {
-		"compatibility": "^0.7.0"
+		"compatibility": "^0.7.0 || ^1.0.0"
 	}
 }
