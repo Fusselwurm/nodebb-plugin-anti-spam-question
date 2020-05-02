@@ -1,12 +1,10 @@
-var
-
-    pluginData = require('./plugin.json'),
-    winston = module.parent.require('winston'),
-    Meta = module.parent.require('./meta'),
-    db = module.parent.require('./database'),
-    Plugin = {},
-    question = '',
-    answer = '';
+var pluginData = require('./plugin.json');
+var winston = require.main.require('winston');
+var Meta = require.main.require('./src/meta');
+var db = require.main.require('./src/database');
+var Plugin = {};
+var question = '';
+var answer = '';
 
 pluginData.nbbId = pluginData.id.replace(/nodebb-plugin-/, '');
 
